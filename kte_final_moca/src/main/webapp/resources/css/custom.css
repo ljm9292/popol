@@ -1,0 +1,142 @@
+/* .container{
+    width : 960px;
+} */
+
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'SLEIGothicTTF';
+}
+
+.d-none-custom{
+    display : none;
+}
+
+.fc-day-sun{
+	background-color : #fce9e8;
+}
+
+#myPop{
+	z-index:1000;
+	min-width : 407px;
+}
+
+.fc-event{
+	cursor : pointer;
+}
+
+footer {
+	height : 100px;
+}
+
+.carousel-wrap {
+	opacity : 0.3;
+}
+
+#carousel-cont img{
+	height: 850px;
+}
+#carousel-cont{
+	width : 100%;
+	
+}
+
+
+
+	.profile_url{
+		width:50px;
+		height:50px;
+		border:1px solid #ccc;
+	}
+	
+	 #dropdown{
+     background-color : #e2e2e2;
+    }
+    
+    .user_header{
+    	background-color : #fff;
+    }
+
+
+.form-control-plaintext:focus{
+	outline : none;
+}
+
+
+.profile_url_big{
+	width:150px;
+		height:150px;
+		border:1px solid #ccc;
+}
+
+.replyProfile{
+		width:30px;
+		height:30px;
+		border:1px solid #ccc;
+	}
+
+
+.search-profile{
+	width:30px;
+	height:30px;
+	border:1px solid #ccc;
+}
+
+.bi-chat-right-heart{
+	color : palevioletred;
+}
+
+#reserv-indicator [data-bs-target]{
+	text-indent : 0px;
+	width : 100px;
+}
+
+
+.card-title{
+	color : cadetblue;
+}
+
+.menu-btn-custom{
+	width : 150px;
+}
+.reserv-cafe-menu-img-custom{
+	width : 150px;
+	height: 150px;
+}
+
+.reserv-menu-amount-up-btn{
+	height : 15px;
+}
+.reserv-menu-amount-down-btn{
+	height : 15px;
+}
+
+
+#reviewWriteForm fieldset{
+    display: inline-block; /* 하위 별점 이미지들이 있는 영역만 자리를 차지함.*/
+    border: 0; /* 필드셋 테두리 제거 */
+    direction: rtl; /* 이모지 순서 반전 */
+}
+#reviewWriteForm input[type=radio]{
+    display: none; /* 라디오박스 감춤 */
+}
+#reviewWriteForm label{
+    color: transparent; /* 기존 이모지 컬러 제거 */
+    text-shadow: 0 0 0 #dee2e6; /* 새 이모지 색상 부여 */
+}
+
+#reviewWriteForm label:hover{
+    text-shadow: 0 0 0 #ffd700; /* 마우스 호버 */
+}
+#reviewWriteForm label:hover ~ label{
+    text-shadow: 0 0 0 #ffd700; /* 마우스 호버 뒤에오는 이모지들 */
+}
+
+#reviewWriteForm input[type=radio]:checked ~ label{
+    text-shadow: 0 0 0 #ffd700; /* 마우스 클릭 체크 */
+}
